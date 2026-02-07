@@ -1,0 +1,3 @@
+-keep class com.google.api.services.sheets.** { *; }
+-keep class com.google.auth.oauth2.** { *; }
+-dontwarn org.apache.http.**
